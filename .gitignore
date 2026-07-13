@@ -1,0 +1,32 @@
+knowledge/
+## .NET
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userprefs
+.vs/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+publish/
+*.dll
+*.pdb
+
+## Rider / VS Code
+.idea/
+*.sln.iml
+
+## Secrets & local config
+appsettings.*.Local.json
+*.env
+.env
+
+## Test results
+[Tt]est[Rr]esult*/
+*.trx
+coverage/

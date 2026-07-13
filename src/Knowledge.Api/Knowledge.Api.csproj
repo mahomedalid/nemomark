@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Knowledge.Core\Knowledge.Core.csproj" />
+    <ProjectReference Include="..\Knowledge.Infrastructure\Knowledge.Infrastructure.csproj" />
+    <ProjectReference Include="..\Knowledge.Ingestion\Knowledge.Ingestion.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>973a3425-0807-4b8e-b5f0-4938a14f4322</UserSecretsId>
+  </PropertyGroup>
+
+</Project>

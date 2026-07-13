@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Knowledge.Api/Knowledge.Api.csproj" />
+    <Project Path="src/Knowledge.Core/Knowledge.Core.csproj" />
+    <Project Path="src/Knowledge.Infrastructure/Knowledge.Infrastructure.csproj" />
+    <Project Path="src/Knowledge.Ingestion/Knowledge.Ingestion.csproj" />
+    <Project Path="src/Knowledge.Worker/Knowledge.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Knowledge.Tests/Knowledge.Tests.csproj" />
+  </Folder>
+</Solution>
